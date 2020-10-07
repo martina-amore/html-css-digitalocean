@@ -34,9 +34,62 @@
     border: 1px solid white;
 }
 
+/* GENERALI */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* 1° SECTION: NAVBAR-TOP */
 #navbar-top {
     background-color: white;
+}
+
+#navbar-top .container {
+    height: 70px;
+}
+
+.navbar-top-left, .navbar-top-center, .navbar-top-right {
+    line-height: 70px;
+}
+
+/* NAVBAR-TOP-LEFT */
+.navbar-top-left img {
+    width: 160px;
+}
+
+/* NAVBAR-TOP-CENTER */
+#navbar-top ul {
+    margin-bottom: 0;
+}
+
+#navbar-top ul li {
+    display: inline-block;
+}
+
+#navbar-top li a {
+    color: black;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+/* NAVBAR-TOP-RIGHT */
+.navbar-top-right {
+    text-align: right;
+    float: right;
+}
+
+.navbar-top-right .btn.btn-default.navbar-btn {
+    margin-left: 15px;
+    color: blue;
+    border-color: blue;
+}
+
+.navbar-top-right .btn.btn-outline-dark {
+    color: #3a8aff;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
 }
 
 /* 2° SECTION: JUMBOTRON-BOTTOM */
