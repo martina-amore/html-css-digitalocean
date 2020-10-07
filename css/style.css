@@ -1,0 +1,95 @@
+/* debug */
+.h50 {
+    height: 50px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h150 {
+    height: 150px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.h300 {
+    height: 300px;
+}
+
+.right {
+    float: right;
+}
+
+[class*="col-"] {
+    border: 1px solid black;
+}
+
+#jumbotron-bottom [class*="col-"],
+#customers-main-central-4 [class*="col-"],
+#getnow-main-bottom [class*="col-"],
+#footer-bottom [class*="col-"] {
+    border: 1px solid white;
+}
+
+/* 1° SECTION: NAVBAR-TOP */
+#navbar-top {
+    background-color: white;
+}
+
+/* 2° SECTION: JUMBOTRON-BOTTOM */
+#jumbotron-bottom {
+    background-color: blue;
+}
+
+/* 3° SECTION: SITES-MAIN-TOP */
+#sites-main-top {
+    background-color: lightgrey;
+}
+
+/* 4° SECTION: SERVICES-MAIN-CENTRAL-1 */
+#services-main-central-1 {
+    background-color: white;
+}
+
+/* 5° SECTION: SERVICES-MAIN-CENTRAL-2 */
+#services-main-central-2 {
+    background-color: lightgrey;
+}
+
+/* 6° SECTION: FEATURES-MAIN-CENTRAL-3 */
+#features-main-central-3 {
+    background-color: white;
+}
+
+/* 7° SECTION: CUSTOMERS-MAIN-CENTRAL-4 */
+#customers-main-central-4 {
+    background-color: blue;
+}
+
+/* 8° SECTION: DEVELOPMENT-MAIN-CENTRAL-5 */
+#development-main-central-5 {
+    background-color: lightgrey;
+}
+
+/* 9° SECTION: GETNOW-MAIN-BOTTOM */
+#getnow-main-bottom {
+    background-color: blue;
+}
+
+/* 10° SECTION: FOOTER-BOTTOM */
+#footer-bottom {
+    background-color: darkblue;
+}
+
+
+/* CSS media */
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
