@@ -24,10 +24,9 @@
 }
 
 [class*="col-"] {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-#jumbotron-bottom [class*="col-"],
 #customers-main-central-4 [class*="col-"],
 #getnow-main-bottom [class*="col-"],
 #footer-bottom [class*="col-"] {
@@ -81,8 +80,8 @@ body {
 
 .navbar-top-right .btn.btn-default.navbar-btn {
     margin-left: 15px;
-    color: blue;
-    border-color: blue;
+    color: #006aff;
+    border-color: #006aff;
 }
 
 .navbar-top-right .btn.btn-outline-dark {
@@ -94,9 +93,114 @@ body {
 
 /* 2° SECTION: JUMBOTRON-BOTTOM */
 #jumbotron-bottom {
-    background-color: blue;
+    background-image: url("../img/bg-hero.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+#jumbotron-bottom .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.jumbotron-bottom-left h1 {
+    color: white;
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 6.2rem;
+    margin: 0;
+}
+
+.jumbotron-bottom-left p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.form {
+    text-align: center;
+}
+
+.form-signin {
+  padding: 15px 35px 20px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 4px;
+}
+
+input[type="email"] {
+    margin-bottom: 10px;
+}
+
+input[type="password"] {
+    margin-bottom: 10px;
+}
+
+.form-control::placeholder {
+    color: grey;
+}
+
+.form button {
+    line-height: 14px;
+}
+
+.form h2.text1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form h2.text2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #006aff;
+}
+
+.form .btn.btn-lg.btn-primary {
+    background-color: #579aff;
+    border: #579aff;
+    height: 35px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.form .btn.btn-lg.btn-secondary {
+    background-color: white;
+    color: #626262;
+    height: 35px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    box-shadow: 1px 2px 5px -5px rgba(0,0,0);
+    text-align: justify;
+    position: relative;
+}
+
+.form .btn.btn-lg.btn-secondary .text-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form .btn.btn-lg.btn-secondary img {
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form p {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.form a {
+    color: #006aff;
+    text-decoration: underline;
+}
 /* 3° SECTION: SITES-MAIN-TOP */
 #sites-main-top {
     background-color: lightgrey;
