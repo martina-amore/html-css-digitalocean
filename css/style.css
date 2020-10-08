@@ -316,10 +316,6 @@ input[type="password"] {
 }
 
 /* 5° SECTION: SERVICES-MAIN-CENTRAL-2-BOTTOM */
-.services-main-central-2-bottom {
-    position: relative;
-}
-
 .services-main-central-2-bottom img {
     width: 600px;
 }
@@ -333,15 +329,11 @@ input[type="password"] {
 
 .fa.fa-chevron-left {
     color: #6f7b97;
-    position: absolute;
-    top: 50%;
-    left: 13%;
+    margin-right: 20px;
 }
 
 .fa.fa-chevron-right {
-    position: absolute;
-    top: 50%;
-    right: 13%;
+    margin-left: 20px;
 }
 
 .fa.fa-circle, .fa.fa-circle-thin {
@@ -442,13 +434,57 @@ ul.list-three a {
 
 /* 8° SECTION: DEVELOPMENT-MAIN-CENTRAL-5 */
 #development-main-central-5 {
-    background-color: lightgrey;
+    background-color: #f3f5f9;
+}
+
+#development-main-central-5 .container {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+/* 8° SECTION: DEVELOPMENT-MAIN-CENTRAL-5-TOP */
+.development-main-central-5-top {
+    margin-bottom: 80px;
+}
+
+/* 8° SECTION: DEVELOPMENT-MAIN-CENTRAL-5-BOTTOM */
+.development-main-central-5-bottom img {
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.development-main-central-5-bottom h5 {
+    color: #1d335f;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 25px;
 }
 
 /* 9° SECTION: GETNOW-MAIN-BOTTOM */
 #getnow-main-bottom {
-    background-color: blue;
+    background-color: #0037b3;
 }
+
+#getnow-main-bottom .container {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.create-account-button {
+    margin-top: 20px;
+    background-color: white;
+    color: #006aff;
+    padding: 12px;
+    border-radius: 5px;
+    width: 190px;
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
 
 /* 10° SECTION: FOOTER-BOTTOM */
 #footer-bottom {
@@ -462,53 +498,33 @@ ul.list-three a {
         padding-bottom: 0px;
     }
 
-    .services-main-central-2-bottom img {
-        margin-top: 80px;
+    .services-main-central-2-bottom img,
+    .development-main-central-5-bottom img {
         width: 300px;
+    }
+
+    .services-main-central-2-top {
+        margin-bottom: 80px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .services-main-central-2-bottom img {
-        margin-top: 70px;
+    .services-main-central-2-bottom img,
+    .development-main-central-5-bottom img {
         width: 400px;
     }
 
-    .fa.fa-chevron-left {
-        left: 19%;
-        top: 52%;
-    }
-
-    .fa.fa-chevron-right {
-        right: 19%;
-        top: 52%;
+    .services-main-central-2-top {
+        margin-bottom: 70px;
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
-    .services-main-central-2-bottom img {
-        margin-top: 70px;
-    }
-
-    .fa.fa-chevron-left {
-        top: 55%;
-        left: 15%;
-    }
-
-    .fa.fa-chevron-right {
-        top: 55%;
-        right: 15%;
+    .services-main-central-2-top {
+        margin-bottom: 70px;
     }
 }
 
 @media screen and (min-width: 1201px) {
-    .fa.fa-chevron-left {
-        top: 48%;
-        left: 21%;
-    }
 
-    .fa.fa-chevron-right {
-        top: 48%;
-        right: 21%;
-    }
 }
