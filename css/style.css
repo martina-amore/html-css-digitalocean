@@ -24,7 +24,7 @@
 }
 
 [class*="col-"] {
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 #customers-main-central-4 [class*="col-"],
@@ -209,6 +209,7 @@ input[type="password"] {
 #sites-main-top .container {
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 /* 3° SECTION: SITES-MAIN-TOP-HIGH */
@@ -241,14 +242,142 @@ input[type="password"] {
     background-color: white;
 }
 
+#services-main-central-1 .container {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+/* 4° SECTION: SERVICES-MAIN-CENTRAL-1-TOP */
+.services-main-central-1-top {
+    margin-bottom: 50px;
+}
+
+.services-main-central-1-top p {
+    color: #5c6a88;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* 4° SECTION: SERVICES-MAIN-CENTRAL-1-BOTTOMLEFT */
+.services-main-central-1-bottomleft ul {
+    text-align: left;
+    list-style-type: none;
+    margin-bottom: 30px;
+    padding-left: 0;
+}
+
+.services-main-central-1-bottomleft ul li {
+    color: #5c6a88;
+    font-size: 2rem;
+    border-left: 1px solid lightgrey;
+    padding: 10px;
+}
+
+/* 4° SECTION: SERVICES-MAIN-CENTRAL-1-BOTTOMRIGHT */
+.services-main-central-1-bottomright {
+    text-align: left;
+}
+
+.services-main-central-1-bottomright h4 {
+    margin-top: 15px;
+}
+
+.services-main-central-1-bottomright p {
+    color: #5c6a88;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.services-main-central-1-bottomright [class*="col-"] {
+    height: 170px;
+}
+
 /* 5° SECTION: SERVICES-MAIN-CENTRAL-2 */
 #services-main-central-2 {
-    background-color: lightgrey;
+    background-color: #f3f5f9;
+}
+
+#services-main-central-2 .container {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+/* 5° SECTION: SERVICES-MAIN-CENTRAL-2-TOP */
+.services-main-central-2-top p {
+    color: #5c6a88;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+/* 5° SECTION: SERVICES-MAIN-CENTRAL-2-BOTTOM */
+.services-main-central-2-bottom {
+    position: relative;
+}
+
+.services-main-central-2-bottom img {
+    width: 600px;
+}
+
+.services-main-central-2-bottom h5 {
+    color: #1d335f;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.fa.fa-chevron-left {
+    color: #6f7b97;
+    position: absolute;
+    top: 50%;
+    left: 13%;
+}
+
+.fa.fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    right: 13%;
+}
+
+.fa.fa-circle, .fa.fa-circle-thin {
+    color: blue;
 }
 
 /* 6° SECTION: FEATURES-MAIN-CENTRAL-3 */
 #features-main-central-3 {
     background-color: white;
+}
+
+#features-main-central-3 .container {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+/* 6° SECTION: FEATURES-MAIN-CENTRAL-3-TOP */
+.features-main-central-3-top {
+    text-align: center;
+}
+
+/* 6° SECTION: FEATURES-MAIN-CENTRAL-3-BOTTOM */
+#features-main-central-3 img {
+    margin-top: 20px;
+}
+
+#features-main-central-3 p {
+    color: #5c6a88;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#features-main-central-3 a {
+    color: #006aff;
+    font-size: 1.6rem;
 }
 
 /* 7° SECTION: CUSTOMERS-MAIN-CENTRAL-4 */
@@ -274,9 +403,57 @@ input[type="password"] {
 
 /* CSS media */
 @media screen and (max-width: 767px) {
+    #services-main-central-1 .container {
+        padding-bottom: 0px;
+    }
 
+    .services-main-central-2-bottom img {
+        margin-top: 80px;
+        width: 300px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .services-main-central-2-bottom img {
+        margin-top: 70px;
+        width: 400px;
+    }
 
+    .fa.fa-chevron-left {
+        left: 19%;
+        top: 52%;
+    }
+
+    .fa.fa-chevron-right {
+        right: 19%;
+        top: 52%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .services-main-central-2-bottom img {
+        margin-top: 70px;
+    }
+
+    .fa.fa-chevron-left {
+        top: 55%;
+        left: 15%;
+    }
+
+    .fa.fa-chevron-right {
+        top: 55%;
+        right: 15%;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .fa.fa-chevron-left {
+        top: 48%;
+        left: 21%;
+    }
+
+    .fa.fa-chevron-right {
+        top: 48%;
+        right: 21%;
+    }
 }
