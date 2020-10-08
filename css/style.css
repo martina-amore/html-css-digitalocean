@@ -23,7 +23,7 @@
     float: right;
 }
 
-[class*="col-"] {
+/* [class*="col-"] {
     border: 1px solid black;
 }
 
@@ -31,7 +31,7 @@
 #getnow-main-bottom [class*="col-"],
 #footer-bottom [class*="col-"] {
     border: 1px solid white;
-}
+} */
 
 /* GENERALI */
 body {
@@ -382,7 +382,62 @@ input[type="password"] {
 
 /* 7° SECTION: CUSTOMERS-MAIN-CENTRAL-4 */
 #customers-main-central-4 {
-    background-color: blue;
+    background-color: #0037b3;
+}
+
+#customers-main-central-4 .container {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+/* 7° SECTION: CUSTOMERS-MAIN-CENTRAL-4-TOP */
+.customers-main-central-4-top h1 {
+    color: white;
+    text-align: center;
+}
+
+/* 7° SECTION: CUSTOMERS-MAIN-CENTRAL-4-BOTTOM */
+.customers-main-central-4-bottom ul li {
+    border-bottom: 1px solid white;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.customers-main-central-4-bottom ul li:last-child {
+    border-bottom: transparent;
+}
+
+ul.list-one {
+    color: white;
+    font-weight: 600;
+    list-style-type: none;
+    padding-left: 0;
+    width: 20%;
+    float: left;
+}
+
+ul.list-two  {
+    color: rgba(255, 255, 255, 0.7);
+    list-style-type: none;
+    width: calc(80% / 2);
+    float: left;
+    padding-left: 0;
+}
+
+ul.list-three  {
+    list-style-type: none;
+    width: calc(80% / 2);
+    float: right;
+    padding-left: 0;
+    text-align: right;
+}
+
+ul.list-three a {
+    color: #00c8cf;
+}
+
+.customers-main-central-4-bottom .menu {
+    padding-bottom: 10px;
 }
 
 /* 8° SECTION: DEVELOPMENT-MAIN-CENTRAL-5 */
