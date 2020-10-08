@@ -51,12 +51,12 @@ body {
     line-height: 70px;
 }
 
-/* NAVBAR-TOP-LEFT */
+/* 1° SECTION: NAVBAR-TOP-LEFT */
 .navbar-top-left img {
     width: 160px;
 }
 
-/* NAVBAR-TOP-CENTER */
+/* 1° SECTION: NAVBAR-TOP-CENTER */
 #navbar-top ul {
     margin-bottom: 0;
 }
@@ -72,7 +72,7 @@ body {
     font-size: 1.6rem;
 }
 
-/* NAVBAR-TOP-RIGHT */
+/* 1° SECTION: NAVBAR-TOP-RIGHT */
 .navbar-top-right {
     text-align: right;
     float: right;
@@ -103,6 +103,7 @@ body {
     padding-bottom: 60px;
 }
 
+/* 2° SECTION: JUMBOTRON-BOTTOM-LEFT */
 .jumbotron-bottom-left h1 {
     color: white;
     font-size: 6rem;
@@ -118,6 +119,7 @@ body {
     margin-top: 10px;
 }
 
+/* 2° SECTION: JUMBOTRON-BOTTOM-RIGHT */
 .form {
     text-align: center;
 }
@@ -141,10 +143,6 @@ input[type="password"] {
     color: grey;
 }
 
-.form button {
-    line-height: 14px;
-}
-
 .form h2.text1 {
     margin-top: 20px;
     margin-bottom: 5px;
@@ -164,6 +162,7 @@ input[type="password"] {
     height: 35px;
     font-size: 1.5rem;
     font-weight: 500;
+    position: relative;
 }
 
 .form .btn.btn-lg.btn-secondary {
@@ -201,9 +200,40 @@ input[type="password"] {
     color: #006aff;
     text-decoration: underline;
 }
+
 /* 3° SECTION: SITES-MAIN-TOP */
 #sites-main-top {
-    background-color: lightgrey;
+    background-color: #f3f5f9;
+}
+
+#sites-main-top .container {
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* 3° SECTION: SITES-MAIN-TOP-HIGH */
+.sites-main-top-high h4 {
+    color: #6f7b97;
+}
+
+/* 3° SECTION: SITES-MAIN-TOP-CENTER */
+.sites-main-top-center {
+    margin-top: 20px;
+}
+
+.sites-main-top-center img {
+    height: 100px;
+    width: 100%;
+}
+
+/* 3° SECTION: SITES-MAIN-TOP-BOTTOM */
+.sites-main-top-bottom {
+    margin-top: 20px;
+}
+
+.sites-main-top-bottom a {
+    color: #006aff;
+    font-size: 1.6rem;
 }
 
 /* 4° SECTION: SERVICES-MAIN-CENTRAL-1 */
