@@ -3,6 +3,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+[class*="col-"] {
+    /* border: 1px solid black; */
+}
+
 /* 1° SECTION: NAVBAR-TOP */
 #navbar-top {
     background-color: white;
@@ -387,53 +391,41 @@ input[type="password"] {
 }
 
 /* 7° SECTION: CUSTOMERS-MAIN-CENTRAL-4-BOTTOM */
-.customers-main-central-4-bottom ul li {
+.my-container-servers {
     border-bottom: 1px solid white;
-    font-weight: 600;
+}
+
+.text-col-1, .text-col-2, .text-col-3 {
     padding: 8px;
 }
 
-.customers-main-central-4-bottom ul li:last-child {
-    border-bottom: transparent;
-}
-
-ul.list-one {
-    color: white;
-    font-weight: 600;
-    list-style-type: none;
-    padding-left: 0;
-    width: 20%;
-    float: left;
-}
-
-ul.list-two  {
-    color: rgba(255, 255, 255, 0.7);
-    list-style-type: none;
-    width: calc(80% / 2);
-    float: left;
-    padding-left: 0;
-}
-
-ul.list-three  {
-    list-style-type: none;
-    width: calc(80% / 2);
-    float: right;
-    padding-left: 0;
+.customers-main-central-4-bottom-servers .col-lg-3 {
     text-align: right;
 }
 
-ul.list-three a {
-    color: #00c8cf;
+.text-col-1 {
+    color: white;
+    font-weight: 600;
 }
 
-ul.list-three a:hover {
+.text-col-2 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.text-col-3 a {
+    color: #00c8cf;
+    list-style-type: none;
+}
+
+.text-col-3 a:hover {
     color: #3a8aff;
     text-decoration: none;
 }
 
-.customers-main-central-4-bottom .menu {
-    padding-bottom: 10px;
+.customers-main-central-4-bottom-servers {
+    padding-bottom: 30px;
 }
+
 
 /* 8° SECTION: DEVELOPMENT-MAIN-CENTRAL-5 */
 #development-main-central-5 {
